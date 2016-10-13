@@ -46,3 +46,8 @@ There's also a [Mercurial mirror](http://bitbucket.org/bos/mysql):
 
 This library is written and maintained by Bryan O'Sullivan,
 <bos@serpentine.com>.
+Buffer pool export and restore by prefetch
+•	Export and restore InnoDB buffer pool in using a safe and lightweight method. This enables us to build tools to support rolling restarts of our services with minimal pain.
+Optimization for solid-state drives (SSDs)
+•	Optimize MySQL for SSD-based machines, including page-flushing behavior and reduction in writes to disk to improve lifespan.
+
